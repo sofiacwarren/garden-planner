@@ -1,0 +1,71 @@
+html{
+  height: 100%;
+  background-image: linear-gradient(#588b3b,#08c466);
+  font-family: sans-serif;
+  color: #0f222d;
+  background-size: auto;
+}
+
+.main{
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+h1{
+  text-align: center;
+  color: rgb(216, 236, 192);
+}
+form{
+  background-color: rgb(216, 236, 192);
+  padding: 15px;
+}
+input[type="text"]{
+  width: 310px;
+  height: 30px;
+  outline: 0;
+  border: none;
+  font-size: 18px;
+  background: rgb(216, 236, 192);
+  color: #2f4f4f;
+}
+button{
+  font-size: 18px;
+  color: #53BDFF;
+  background-color: rgb(216, 236, 192);
+  outline: 0;
+  border: none;
+  width: 50px;
+  cursor: pointer;
+}
+.seedBoard{
+  background-color: rgb(216, 236, 192);
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+}
+ul{
+  list-style: none;
+}
+li{
+  border-bottom: 1px solid #53BDFF;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-size: 1.3em;
+  color: #2f4f4f;
+}
+a{
+  float: right;
+  text-align: right;
+  color: #88a63c;
+  font-size: 18px;
+  cursor: pointer;
+}
+.delete{
+  background-color: #e8a220;
+  padding: 0px 3px 0px 3px;
+  color: rgb(216, 236, 192);
+  cursor: pointer;
+}
